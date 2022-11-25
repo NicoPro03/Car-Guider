@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "huellas proyecto")(type "KiCad")(uri "D:/Librerias-Kicad-master/huellas proyecto")(options "")(descr ""))
+  (lib (name "huellas")(type "KiCad")(uri "D:/huellas.pretty")(options "")(descr ""))
+)
