@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Proyecto-Acelerometro-rescue)(type Legacy)(uri "${KIPRJMOD}/Proyecto Acelerometro-rescue.lib")(options "")(descr ""))
+  (lib (name EESTN5)(type Legacy)(uri D:/Descargas1/Kicad/Librerias-Kicad/EESTN5.lib)(options "")(descr ""))
+)

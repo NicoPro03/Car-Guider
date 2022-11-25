@@ -1,0 +1,131 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# HEADER-18-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF HEADER-18-EESTN5-Proyecto-Acelerometro-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "HEADER-18-EESTN5-Proyecto-Acelerometro-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -100 200 -1000 0 1 0 N
+X ~ 1 -300 -150 100 R 50 50 1 1 I
+X ~ 10 300 -950 100 L 50 50 1 1 I
+X ~ 11 300 -850 100 L 50 50 1 1 I
+X ~ 12 300 -750 100 L 50 50 1 1 I
+X ~ 13 300 -650 100 L 50 50 1 1 I
+X ~ 14 300 -550 100 L 50 50 1 1 I
+X ~ 15 300 -450 100 L 50 50 1 1 I
+X ~ 16 300 -350 100 L 50 50 1 1 I
+X ~ 17 300 -250 100 L 50 50 1 1 I
+X ~ 18 300 -150 100 L 50 50 1 1 I
+X ~ 2 -300 -250 100 R 50 50 1 1 I
+X ~ 3 -300 -350 100 R 50 50 1 1 I
+X ~ 4 -300 -450 100 R 50 50 1 1 I
+X ~ 5 -300 -550 100 R 50 50 1 1 I
+X ~ 6 -300 -650 100 R 50 50 1 1 I
+X ~ 7 -300 -750 100 R 50 50 1 1 I
+X ~ 8 -300 -850 100 R 50 50 1 1 I
+X ~ 9 -300 -950 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# HEADER-3-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF HEADER-3-EESTN5-Proyecto-Acelerometro-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "HEADER-3-EESTN5-Proyecto-Acelerometro-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -100 50 -400 0 1 0 N
+X ~ 1 -250 -150 100 R 50 50 1 1 I
+X ~ 2 -250 -250 100 R 50 50 1 1 I
+X ~ 3 -250 -350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# HEADER_2-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF HEADER_2-EESTN5-Proyecto-Acelerometro-rescue J 0 0 Y Y 1 F N
+F0 "J" 50 150 60 H V C CNN
+F1 "HEADER_2-EESTN5-Proyecto-Acelerometro-rescue" 50 -200 60 H V C CNN
+F2 "" 0 250 60 H V C CNN
+F3 "" 0 250 60 H V C CNN
+$FPLIST
+ SIL*
+ HEADER*
+ JST*
+ PIN*
+$ENDFPLIST
+DRAW
+S 0 100 100 -100 0 1 0 N
+X ~ 1 -100 50 100 R 35 50 1 1 P
+X ~ 2 -100 -50 100 R 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HEADER_4-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF HEADER_4-EESTN5-Proyecto-Acelerometro-rescue J 0 0 Y Y 1 F N
+F0 "J" 0 250 60 H V C CNN
+F1 "HEADER_4-EESTN5-Proyecto-Acelerometro-rescue" 0 -250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SIL*
+ HEADER*
+ JST-4*
+ PIN*
+$ENDFPLIST
+DRAW
+S 100 200 0 -200 0 1 0 N
+X ~ 1 -100 150 100 R 35 50 1 1 P
+X ~ 2 -100 50 100 R 35 50 1 1 P
+X ~ 3 -100 -50 100 R 35 50 1 1 P
+X ~ 4 -100 -150 100 R 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF R-EESTN5-Proyecto-Acelerometro-rescue R 0 0 N Y 1 F N
+F0 "R" -50 0 50 V V C CNN
+F1 "R-EESTN5-Proyecto-Acelerometro-rescue" 50 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RES*
+ R_*
+$ENDFPLIST
+DRAW
+S 20 50 -20 -50 0 1 0 N
+X ~ 1 0 100 50 D 60 60 1 1 P
+X ~ 2 0 -100 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_Push-EESTN5-Proyecto-Acelerometro-rescue
+#
+DEF SW_Push-EESTN5-Proyecto-Acelerometro-rescue SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "SW_Push-EESTN5-Proyecto-Acelerometro-rescue" 0 -60 50 H I C CNN
+F2 "" 0 200 50 H V C CNN
+F3 "" 0 200 50 H V C CNN
+$FPLIST
+ PUL*
+ SW*
+ SPST*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
